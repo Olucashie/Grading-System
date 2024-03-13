@@ -1,0 +1,74 @@
+body{
+  /* background-color: black; */
+}
+.grade-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  label, input, button {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e3cc4;
+  }
+  
+  .grade-result {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .grade-A1 {
+    color: green;
+  }
+  
+  .grade-B2 {
+    color: rgb(0, 96, 128);
+  }
+  
+  .grade-B3 {
+    color:blue ;
+  }
+  
+  .grade-C4 {
+    color:rgb(162, 151, 6);
+  }
+  .grade-C5 {
+    color:orange ;
+  }
+  
+  .grade-C6 {
+    color: rgb(183, 120, 4);
+  }
+  
+  .grade-D7 {
+    color: yellow;
+  }
+  .grade-E8 {
+    color: rgba(255, 51, 0, 0.993);
+  }
+  .grade-F9 {
+    color: red;
+  }
+
+  
