@@ -17,7 +17,8 @@ body{
     width: 80%;
     padding: 10px;
     border: 2px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
+    outline: none;
   }
   
   button {
