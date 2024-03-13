@@ -2,8 +2,9 @@ function calculateGrade() {
     const score = document.getElementById("score").value;
   
     let grade = "";
-  
-    if (score >= 90) {
+    if (score == ""){
+      grade = "Empty ❗";
+    } else if (score >=  90) {
       grade = "A1🙌";
     } else if (score >= 80) {
       grade = "B2👏";
@@ -17,15 +18,10 @@ function calculateGrade() {
       grade = "C6😒";
     }else if (score >= 45) {
       grade = "D7🙁";
-    }else if (score >= 40) {
-      grade = "E8😢";
+    }else if (score <= 40 || score == 0) {
+      grade = "F9😢";
     }
-       else if (score >=0) {
-      grade = "F9☹🥴"; 
-    }else if (score=""){
-      grade = "Ipnput "
-    }
-  
+
     const result = document.getElementById("result");
     result.innerHTML = `Your grade is <span class="grade-${grade}">${grade}</span>`;
   }
