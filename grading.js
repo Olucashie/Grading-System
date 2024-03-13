@@ -3,12 +3,12 @@ function calculateGrade() {
     const score = document.getElementById("score").value;
    
     var grade = Number(score.value)
-    var songfail = new Audio ("music/failure.mp3")
-    var songpass = new Audio ("music/good.mp3")
-    var songaverage = new Audio ("music/average.mp3")
-    var songcredit = new Audio ("music/credit.mp3")
-    var songgood = new Audio ("music/pass.mp3")
-    var songexcellent = new Audio ("music/clapping.mp3") 
+    var songfail = new Audio ("audios/failure.mp3")
+    var songpass = new Audio ("audios/good.mp3")
+    var songaverage = new Audio ("audios/average.mp3")
+    var songcredit = new Audio ("audios/credit.mp3")
+    var songgood = new Audio ("audios/pass.mp3")
+    var songexcellent = new Audio ("audios/clapping.mp3") 
 
 
 
